@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(98, 102, 112);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+}
+.cardd{
+    display: inline-block;
+    text-align: center; 
+    color: white;
+    border: 1px solid black;
+    background-image: linear-gradient(to right,rgb(252, 239, 221),rgb(104, 102, 102));  
+    margin: 9px
+}
+
+.bodyy{
+    margin: 15px;
+}
+
+button{
+    background-color: transparent !important;
+    border-color: white !important;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid white;
+    
+}
